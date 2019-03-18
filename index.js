@@ -93,7 +93,7 @@ const AxiosRestWrapper = function(options) {
   // Add a request interceptor
   _.interceptors.request.use(function (config) {
     // fix params not working issue
-    if (Object.keys(config.params).length > 0) {
+    if (config.params && Object.keys(config.params).length > 0) {
       config.url = `${config.url}?${qs.stringify(config.params)}`
     }
     return config

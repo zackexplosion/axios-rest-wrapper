@@ -1,6 +1,6 @@
 {
   "name": "axios-rest-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wraper axios as rest client and fix BUGS!",
   "main": "index.js",
   "scripts": {

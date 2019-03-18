@@ -1,6 +1,6 @@
 # axios-rest-wrapper
 
-Wraping [axios](https://github.com/axios/axios) as rest client
+Wrap [axios](https://github.com/axios/axios) as REST client
 
 # Fixes in axios version 0.18
 1. fix interceptors order bug
