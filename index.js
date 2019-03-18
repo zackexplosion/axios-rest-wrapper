@@ -74,9 +74,13 @@ const AxiosRestWrapper = function(options) {
     })
 
     resource.update = attrs => {
-      return _.put(`/${prefix}/${resource.id}`, attrs).then(resource =>{
+      return _.put(`/${prefix}/${resource[key]}`, attrs).then(resource =>{
         return new RestObject({resource, prefix, key, instanceMethods})
       })
+    }
+
+    resource.delete = attrs => {
+      return _.delete(`/${prefix}/${resource[key]}`, attrs)
     }
 
     return resource
