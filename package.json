@@ -1,0 +1,23 @@
+{
+  "name": "axios-rest-wrapper",
+  "version": "0.0.1",
+  "description": "Wraper axios as rest client and fix BUGS!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios",
+    "bug"
+  ],
+  "author": "Zackexplosion",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zackexplosion/axios-rest-wrapper"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qs": "^6.6.0"
+  }
+}
